@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #403829;
+	color: #fff;
+	padding-top: 10px;
+}
+
+button {
+	text-align: center;
+	background-color: #1a17c1;
+	color: #fff;
+	margin-top: 10px; 
+	padding: 10px;
+}
+
+.contactForm {
+	margin: 0 auto;
+	padding: 10px;
+	width: 20vw;
+	text-align: center;
+	background-color: #71823b;
+	box-shadow: 5px 5px 10px 2px #0c0c0c;
+	border-radius: 5px;
+
+}
+
+input {
+	margin-top: 10px;
+	height: 30px;
+	width: 80%;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.contactImage {
+	height: 60px;
+	width: 60px;
+	float: left;
+	margin: 10px;
+}
+
+.contactLabel {
+	width: 300px;
+	margin: 10px;
+}
+
+.contactItem {
+	background-color: #992323;
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	box-shadow: 5px 5px 10px 2px #380e0e;
+}
+
+.contactsList {
+	margin: 0 auto;
+	margin-top: 5%;
+	width: auto;
+	text-align: center;
+}
+
+#app {
+	display: flex;
+	justify-content: center;
+}
