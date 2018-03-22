@@ -5,7 +5,20 @@ var ContactForm = React.createClass({
 
   render: function() {
     return (
-      React.createElement('form', {className: 'contactForm'},
+      <form className={'contactForm'}>
+        <input type='text' placeholder='Imię' value={this.props.contact.firstName}/>
+        <input type='text' placeholder='Nazwisko' value={value: this.props.contact.lastName}/>
+        <input type='text' placeholder='Email' value={value: this.props.contact.email}/>
+        <button type='submit'>
+          Dodaj kontakt
+        </button>
+      </form>
+    );
+  }    
+});  
+
+/*
+React.createElement('form', {className: 'contactForm'},
         React.createElement('input', {
           type: 'text',
           placeholder: 'Imię',

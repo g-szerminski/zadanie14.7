@@ -1,0 +1,25 @@
+{
+  "name": "zadanie14.7",
+  "version": "1.0.0",
+  "description": "14 - ReactJS<br>\r 14.7 - JSX-lekarstwo na problematyczną składnię tworzenia nowych elementów<br>\r Zadanie: Wykorzystujemy JSX",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g-szerminski/zadanie14.7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g-szerminski/zadanie14.7/issues"
+  },
+  "homepage": "https://github.com/g-szerminski/zadanie14.7#readme",
+  "dependencies": {
+    "babel-standalone": "^6.26.0",
+    "http-server": "^0.11.1"
+  }
+}
