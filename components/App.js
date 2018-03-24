@@ -3,19 +3,19 @@ var contacts = [
 		id: 1,
 		firstName: 'Jan',
 		lastName: 'Nowak',
-		email: 'jan.nowak@example.com',
+		email: 'jan.nowak@example.com'
 	},
 	{
 		id: 2,
  		firstName: 'Adam',
 		lastName: 'Kowalski',
-		email: 'adam.kowalski@example.com',
+		email: 'adam.kowalski@example.com'
 	},
 	{
 		id: 3,
 		firstName: 'Zbigniew',
 		lastName: 'Koziol',
-		email: 'zbigniew.koziol@example.com',
+		email: 'zbigniew.koziol@example.com'
 	}
 ];
 
@@ -27,11 +27,21 @@ var contactForm = {
 
 var App = React.createClass({
 	render: function() {
-	return (
-		React.createElement('div', {className: 'app'},
-			React.createElement(ContactForm, {contact: contactForm}),
-			React.createElement(Contacts, {items: contacts}, {})
+		return (
+			<div className='app'>
+				<ContactForm contact={contactForm}/>
+				<Contacts items={contacts}/>
+			</div>
+		);
+	}
+});
+
+/*return (
+			React.createElement('div', {className: 'app'},
+				React.createElement(ContactForm, {contact: contactForm}),
+				React.createElement(Contacts, {items: contacts}, {})
 			)
 		);
 	}
 });
+*/
