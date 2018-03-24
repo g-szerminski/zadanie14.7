@@ -13,5 +13,3 @@ var Contacts = React.createClass({
     );
   }
 });
-
-///React.createElement('ul', {className: 'contactsList'}, contacts)
